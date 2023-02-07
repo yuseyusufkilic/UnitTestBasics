@@ -27,7 +27,7 @@ namespace Test.UnitTest
                 new Produuct()
                 {
                     Id = 1,
-                    Name="KalemGit",
+                    Name="KalemGitDeneme",
                     Stock=100,
                     Color="Red",
                     Price=100,
