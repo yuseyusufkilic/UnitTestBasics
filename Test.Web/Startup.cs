@@ -55,7 +55,7 @@ namespace Test.Web
             app.UseStaticFiles();
             app.UseCors("CustomCors");
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
